@@ -39,6 +39,13 @@ var albumMarconi = {
         return Fixtures;
     }
 
+        Fixtures.getCollection = function(numberOfAlbums) {
+            return albumPicasso;
+        };
+
+        return Fixtures;
+    }
+
     angular
         .module('blocJams')
         .factory('Fixtures', Fixtures);
